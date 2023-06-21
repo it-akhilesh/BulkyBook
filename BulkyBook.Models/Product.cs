@@ -11,6 +11,7 @@ namespace BulkyBook.Models
 {
     public class Product
     {
+		public int Id1 { get; set; }
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
